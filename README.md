@@ -5,7 +5,7 @@
 Dengan menggunakan command "SHOW PLUGIN:"
 
 `````
-![Hasil menunjukkan bahwa Partition telah aktif](Picture1.png)
+![Hasil](Picture1.png)
 
 `````
 
