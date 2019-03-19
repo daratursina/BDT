@@ -4,10 +4,8 @@
 1. Mengecek apakah plugin partition telah aktif 
 Dengan menggunakan command "SHOW PLUGIN:"
 
-`````
 ![Hasil](Picture1.png)
 
-`````
 
 Setelah itu mengestrak database, database yang digunakan dari vertabelo (https://www.vertabelo.com/blog/technical-articles/everything-you-need-to-know-about-mysql-partitions)
 
