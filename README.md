@@ -5,7 +5,9 @@
 Dengan menggunakan command "SHOW PLUGIN:"
 
 `````
-!<Hasil menunjukkan bahwa Partition telah aktif(`````
+!<Hasil menunjukkan bahwa Partition telah aktif(SCREENSHOOT/Picture1)
+
+`````
 
 Setelah itu mengestrak database, database yang digunakan dari vertabelo (https://www.vertabelo.com/blog/technical-articles/everything-you-need-to-know-about-mysql-partitions)
 
