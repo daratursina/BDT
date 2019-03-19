@@ -163,3 +163,17 @@ WHERE  measure_timestamp < '2016-01-01';
 `````
 ALTER TABLE vertabelo.partitioned_measures DROP PARTITION prev_year_logs ;
 `````
+##### HASIL(OUPUT DARI MENGUJI SELECT -> PERINTAH EXPLAIN, QUERY BENCHMARK, DAN QUERY DELETE(BIG DELETE)
+![Hasil](2.png)
+
+![Hasil](3.png)
+
+![Hasil](4.png)
+
+![Hasil](5.png)
+
+![Hasil](6.png)
+
+![Hasil](7.png)
+
+![Hasil](8.png)
