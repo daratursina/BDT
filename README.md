@@ -94,7 +94,7 @@ PARTITIONS 10;
 `````
 4. Testing pada bagian "A Typical Use Case: Time Series Data"
 
-    a. Menguji SELECT dengan menggunakan perintah EXPLAIN
+a. Menguji SELECT dengan menggunakan perintah EXPLAIN
 `````
 SELECT * FROM samplelogs WHERE created > '2016-01-01';
 EXPLAIN test_measures
