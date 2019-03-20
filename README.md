@@ -92,7 +92,7 @@ CREATE TABLE serverlogs6 (
 PARTITION BY LINEAR KEY(serverid)
 PARTITIONS 10;
 `````
-4. Testing pada bagian "A Typical Use Case: Time Series Data"
+   4. Testing pada bagian "A Typical Use Case: Time Series Data"
 
 a. Menguji SELECT dengan menggunakan perintah EXPLAIN
 `````
@@ -105,11 +105,7 @@ EXPLAIN SELECT *
 FROM test_measures
 WHERE measure_timestamp >= '2016-01-01 AND DAYOFWEEK(measure_timestamp)
 `````
-
-
-      b. Menguji Query Benchmark untuk masing-masing tabel
-
-
+ b. Menguji Query Benchmark untuk masing-masing tabel
 `````
 ELECT SQL_NO_CACHE
     COUNT(*)
