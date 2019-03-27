@@ -60,15 +60,15 @@ Masuk ke proxy
    
   Registrasi terlebih dahulu
   
-   ![Hasil](Picture1.png)
+   ![Hasil](Picture2.png)
    
   Ketika berhasil melakukan registrasi maka akan muncul tampilan seperti dibawah ini : 
   
-   ![Hasil](Picture1.png)
+   ![Hasil](Picture3.png)
    
   Untuk login wordpress disesuaikan dengan nama yang telah dilakukan awal pertama registrasi
     
-   ![Hasil](Picture1.png)
+   ![Hasil](Picture4.png)
    
   Berikut ini juga tampilan dari wordpress, dan terlihat jelas hasil post yang telah di tambahkan
      
