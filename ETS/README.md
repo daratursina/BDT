@@ -72,7 +72,7 @@ Masuk ke proxy
    
   Berikut ini juga tampilan dari wordpress, dan terlihat jelas hasil post yang telah di tambahkan
      
-   ![Hasil](Picture1.png)
+   ![Hasil](Picture5.png)
    
    ## Cara untuk mengetahui bahwa post yang kita tambahkan masuk atau berjalan aktif
 `````
