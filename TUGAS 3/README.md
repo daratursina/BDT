@@ -15,3 +15,8 @@
    ##### Hasil tampilan ketika IP Whitelist telah ditambahkan
 ![Hasil](gambar/cluster3.png)    
 
+#### 7. Setelah itu menyambungkan cluster ( melakukan conncet dari cluster ke MongoDB Compas)
+  ##### Tampilan untuk melakukan connect cluster dari MongoDB server ke MongoDB Compas
+  ##### Jangan lupa untuk mengcopy string yang akan di salin ke MongoDB Compas
+ ![Hasil](gambar/cluster4.png)            ![Hasil](gambar/cluster5.png)    
+
