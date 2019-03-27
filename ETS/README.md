@@ -88,9 +88,11 @@ Masuk ke proxy
   show databases;
   use wordpress;
 `````
-   ![Hasil](Picture1.png)
+   #### Pada manager
+   ![Hasil](Picture7.png)
    
-   ![Hasil](Picture1.png)
+   #### Pada clusterdb1
+   ![Hasil](Picture8.png)
    
    ## Test Database pada wordpress pada cLusterdb 1 dan cluster db2
    #### cek status ndb pada salah satu node ( dibawah ini saya cek pada clusterdb1 )
