@@ -52,3 +52,6 @@ Ternayata penyebabnya yaitu karena akses wifi atau internet yang digunakan tidak
 Solusinya dengan cara menambah alamat IP Whitelist baru.
 ##### Pada IP Whitelist ini awalnya terdapat satu alamat IP, karena tiap mengakses MongoDB Compas atau MongoDB tidak selalu pada jaringan akses wifi atau internet yang sama , maka menambah alamat IP baru
 ![Hasil](gambar/whitelist.png) 
+
+# Referensi
+  https://www.mongodb.com/cloud/atlas
