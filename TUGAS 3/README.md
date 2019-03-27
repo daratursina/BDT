@@ -7,5 +7,7 @@
    #### Hasil tampilan ketika cluster telah terbentuk 
 ![Hasil](gambar/cluster1.png)  
 
-
+#### 5. Membuat user untuk database 
+   ####  Hasil tampilan ketika user berhasil dibentuk
+![Hasil](gambar/cluster2.png) 
 
