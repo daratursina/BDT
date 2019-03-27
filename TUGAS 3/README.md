@@ -46,7 +46,7 @@ mongoimport --host cluster0-shard-00-01-izxhb.mongodb.net:27017 --db recipes --t
  ![Hasil](gambar/tampilanimport.png) 
  
 #### Ketika saya melakukan import dataset terjadi eror yaitu "connect failed" seperti yang saya tampilkan dibawah ini:
- ![Hasil](gambar/connectfailed.png) 
+ ![Hasil](gambar/connectionfailed.png) 
  
 Ternayata penyebabnya yaitu karena akses wifi atau internet yang berubah-ubah. 
 Solusinya dengan cara menambah alamat IP Whitelist baru , maka ketika dataset berhasil di import
