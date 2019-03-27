@@ -9,7 +9,7 @@ Langkah awalnya masuk ke clusterdb1
   vagrant ssh clusterdb1
   mysql -u root -p (dimana password disesuaikan dengan yang kita inginkan)
 `````
-![Hasil](Picture1.png)
+![Hasil](clusterdb.png)
 
 Kemudian langkah selanjutnya yaitu masuk ke proxy untuk menambahkan user
 `````
