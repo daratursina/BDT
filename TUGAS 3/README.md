@@ -24,3 +24,31 @@
  ##### Tampilan ketika cluster telah berhasil ke MongoDB Compas
  ![Hasil](gambar/cluster6.png)
 
+#### 9. Selanjutnya melakukan Import file.json pada cmd didalam file mongodb yag telah diinstall
+   ##### Dataset yang saya gunakan yaitu recipes.json di ambil dari https://www.kaggle.com
+   ##### Cluster yang dipilih adalah yang primary
+   ##### Jangan lupa juga memperhatikan replicaSet parameter's value
+`````
+mongoimport --host cluster0-shard-00-01-izxhb.mongodb.net:27017 --db recipes --type json --file D:\recipes.json --jsonArray --authenticationDatabase admin --ssl --username dara --password dara
+   `````
+ 
+ ![Hasil](gambar/clusterprimary.png)
+ 
+ ![Hasil](gambar/copyimport.png)
+ 
+ ![Hasil](gambar/mongoimport.png) 
+ 
+ 
+#### 10. Dataset berhasil di import akan menampilkan gambar seperti dibawah ini
+ ![Hasil](gambar/berhasilimport.png) 
+ 
+#### 11. Setelah dataset berhasil di import maka MongoDB Compas menampilkan seperti gambar dibawah ini:
+ ![Hasil](gambar/tampilanimport.png) 
+ 
+#### Ketika saya melakukan import dataset terjadi eror yaitu "connect failed" seperti yang saya tampilkan dibawah ini:
+ ![Hasil](gambar/connectfailed.png) 
+ 
+Ternayata penyebabnya yaitu karena akses wifi atau internet yang berubah-ubah. 
+Solusinya dengan cara menambah alamat IP Whitelist baru , maka ketika dataset berhasil di import
+##### Pada IP Whitelist ini awalnya terdapat satu alamat IP, karena tiap mengakses MongoDB Compas atau MongoDB tidak selalu pada jaringan akses wifi atau internet yang sama , maka menambah alamat IP baru
+![Hasil](gambar/whitelist.png) 
