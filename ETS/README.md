@@ -45,7 +45,7 @@ Masuk ke proxy
 `````
   ### Setelah di copy, maka file schema tadi di edit dan ditambahkan ENGINE=NDB disetiap labelnya
   
-  ![Hasil](Picture1.png)
+  ![Hasil](schema.png)
   
   ### Kemudian schema.php di copy kembali ke dalam direktori var/www/html/wordpress/wp-admin/includes/
   ### Setelah itu mengedit isi dari wp-config-sample.php  sesuai dengan database dan user yang telah dibuat
