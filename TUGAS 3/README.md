@@ -48,7 +48,7 @@ mongoimport --host cluster0-shard-00-01-izxhb.mongodb.net:27017 --db recipes --t
 #### Ketika saya melakukan import dataset terjadi eror yaitu "connect failed" seperti yang saya tampilkan dibawah ini:
  ![Hasil](gambar/connectionfailed.png) 
  
-Ternayata penyebabnya yaitu karena akses wifi atau internet yang berubah-ubah. 
-Solusinya dengan cara menambah alamat IP Whitelist baru , maka ketika dataset berhasil di import
+Ternayata penyebabnya yaitu karena akses wifi atau internet yang digunakan tidak sama. 
+Solusinya dengan cara menambah alamat IP Whitelist baru.
 ##### Pada IP Whitelist ini awalnya terdapat satu alamat IP, karena tiap mengakses MongoDB Compas atau MongoDB tidak selalu pada jaringan akses wifi atau internet yang sama , maka menambah alamat IP baru
 ![Hasil](gambar/whitelist.png) 
