@@ -79,9 +79,7 @@ Masuk ke proxy
   masuk ke my sql -u root -p
   kemudian select * from wp_posts\G
 `````
-  ![Hasil](Picture1.png)
-  
-  ![Hasil](Picture1.png)
+  ![Hasil](Picture6.png)
    
  ### Berikut ini cara mengetahui apakah database sudah terhubung oleh wordpress pada salah satu node
 `````
