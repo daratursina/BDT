@@ -29,31 +29,31 @@ Masuk ke proxy
   sudo apt-get install -y php-gd php-imap php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-snmp php-soap php-tidy curl
 `````
 ## Install Wordpress
-  ### Membuat direktori baru pada direktori /var/www/html/
+  #### Membuat direktori baru pada direktori /var/www/html/
 `````
   mkdir wordpress
 `````
-  ### Setelah itu masuk ke dalam direktori baru yang telah dibuat
+  #### Setelah itu masuk ke dalam direktori baru yang telah dibuat
 `````
   wget -c http://wordpress.org/latest.tar.gz
   tar -xzvf latest.tar.gz 
 `````
-  ### Mengubah database ENGINE menjadi NDB
-  ### copy schema.php ke file vagrant untuk memudahkan dalam mengedit ENGIEN=NDB
+  #### Mengubah database ENGINE menjadi NDB
+  #### copy schema.php ke file vagrant untuk memudahkan dalam mengedit ENGIEN=NDB
 `````
   cp /var/www/html/wordpress/wp-admin/includes/schema.php /vagrant
 `````
-  ### Setelah di copy, maka file schema tadi di edit dan ditambahkan ENGINE=NDB disetiap labelnya
+  #### Setelah di copy, maka file schema tadi di edit dan ditambahkan ENGINE=NDB disetiap labelnya
   
   ![Hasil](schema.png)
   
-  ### Kemudian schema.php di copy kembali ke dalam direktori var/www/html/wordpress/wp-admin/includes/
-  ### Setelah itu mengedit isi dari wp-config-sample.php  sesuai dengan database dan user yang telah dibuat
+  #### Kemudian schema.php di copy kembali ke dalam direktori var/www/html/wordpress/wp-admin/includes/
+  #### Setelah itu mengedit isi dari wp-config-sample.php  sesuai dengan database dan user yang telah dibuat
 `````
   sudo nano wp-config-sample.php
 `````
-  ### Setelah itu melakukan rename file wp-config-sample.php menjadi wp-config.php
-  ## Selanjutnya menjalankan IP 192.168.33.14/wordpress pada browser (untuk menjalankan wordpress)
+  #### Setelah itu melakukan rename file wp-config-sample.php menjadi wp-config.php
+  #### Selanjutnya menjalankan IP 192.168.33.14/wordpress pada browser (untuk menjalankan wordpress)
   Maka akan menmampilkan seperti gambar dibawah ini : 
   
    ![Hasil](Picture1.png)
@@ -74,7 +74,7 @@ Masuk ke proxy
      
    ![Hasil](Picture5.png)
    
-   ## Cara untuk mengetahui bahwa post yang kita tambahkan masuk atau berjalan aktif
+ ### Cara untuk mengetahui bahwa post yang kita tambahkan masuk atau berjalan aktif
 `````
   masuk ke my sql -u root -p
   kemudian select * from wp_posts\G
@@ -94,7 +94,7 @@ Masuk ke proxy
    #### Pada clusterdb1
    ![Hasil](Picture8.png)
    
-   ## Test Database pada wordpress pada cLusterdb 1 dan cluster db2
+   #### Test Database pada wordpress pada cLusterdb 1 dan cluster db2
    #### cek status ndb pada salah satu node ( dibawah ini saya cek pada clusterdb1 )
 `````
   ndb_mgm
@@ -102,7 +102,7 @@ Masuk ke proxy
 `````
    ![Hasil](Picture9.png)
    
-  ## Selanjutnya mengnonatifkan salah satu node
+  ### Selanjutnya mengnonatifkan salah satu node
   
 `````
   sudo systemctl stop mysql
