@@ -20,3 +20,7 @@
   ##### Jangan lupa untuk mengcopy string yang akan di salin ke MongoDB Compas
  ![Hasil](gambar/cluster4.png)            ![Hasil](gambar/cluster5.png)    
 
+#### 8. Cluster telah tersambung ke MongoDB Compas
+ ##### Tampilan ketika cluster telah berhasil ke MongoDB Compas
+ ![Hasil](gambar/cluster 6.png)
+
