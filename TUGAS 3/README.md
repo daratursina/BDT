@@ -4,10 +4,10 @@
 #### 2. Untuk mendownload aplikasi tersebut dapat di download pada situs website https://www.mongodb.com/download-center/community?jmp=docs (Mongo DB) dan https://www.mongodb.com/download-center/compass (MongoDB Compas)
 #### 3. Sebelum melakukan instalasi MongoDB, harus melakukan registrasi pada website MongoDB (https://www.mongodb.com/)
 #### 4. Setelah melakukan registrasi maka selanjutnya pembuatan cluster pada mongodb, dimana tiap langkah-langkah sangat jelas di arahkan ketika akan membuat cluster
-   #### Hasil tampilan ketika cluster telah terbentuk 
+   ##### Hasil tampilan ketika cluster telah terbentuk 
 ![Hasil](gambar/cluster1.png)  
 
 #### 5. Membuat user untuk database 
-   ####  Hasil tampilan ketika user berhasil dibentuk
+   #####  Hasil tampilan ketika user berhasil dibentuk
 ![Hasil](gambar/cluster2.png) 
 
