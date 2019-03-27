@@ -11,3 +11,7 @@
    #####  Hasil tampilan ketika user berhasil dibentuk
 ![Hasil](gambar/cluster2.png) 
 
+#### 6. Melakukan settingan IP Whitelist
+   ##### Hasil tampilan ketika IP Whitelist telah ditambahkan
+![Hasil](gambar/cluster3.png)    
+
