@@ -22,5 +22,5 @@
 
 #### 8. Cluster telah tersambung ke MongoDB Compas
  ##### Tampilan ketika cluster telah berhasil ke MongoDB Compas
- ![Hasil](gambar/cluster 6.png)
+ ![Hasil](gambar/cluster6.png)
 
