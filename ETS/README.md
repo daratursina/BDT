@@ -100,16 +100,18 @@ Masuk ke proxy
   ndb_mgm
   show
 `````
+   ![Hasil](Picture9.png)
+   
   ## Selanjutnya mengnonatifkan salah satu node
   
 `````
   sudo systemctl stop mysql
 `````
-   ![Hasil](Picture1.png)
+   ![Hasil]()
    
   ### Melakukan pengukuran response time (load test) menggunakan JMeter.
   
-   ![Hasil](Picture1.png)
+   ![Hasil]()
 
 
   
