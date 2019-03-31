@@ -122,8 +122,7 @@ Masuk ke proxy
   
   ![Hasil](jmeter1.png)
   Pada link ini terdapat hasil dari response time yang telah dilakukan pada j-meter
-  ##### 
-  intip.in/loadtest
+  #### intip.in/loadtest
 
 
   
