@@ -52,6 +52,8 @@ Masuk ke proxy
 `````
   sudo nano wp-config-sample.php
 `````
+ ![Hasil](wp-config.php.png)
+ 
   #### Setelah itu melakukan rename file wp-config-sample.php menjadi wp-config.php
   #### Selanjutnya menjalankan IP 192.168.33.14/wordpress pada browser (untuk menjalankan wordpress)
   Maka akan menmampilkan seperti gambar dibawah ini : 
