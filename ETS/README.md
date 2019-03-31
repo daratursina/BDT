@@ -110,7 +110,7 @@ Masuk ke proxy
 `````
   sudo service stop mysql
 `````
-  ![Hasil](nodeomati.png)
+  ![Hasil](nodemati.png)
    
  ##### Untuk mengaktifkan node menggunakan syntax : 
  `````
