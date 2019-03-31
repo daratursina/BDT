@@ -96,7 +96,7 @@ Masuk ke proxy
    #### Pada clusterdb1
    ![Hasil](Picture8.png)
    
-   #### Test Database pada wordpress pada cLusterdb 1 dan cluster db2
+   #### Test Database pada wordpress pada manager  dan cLusterdb 1
    #### cek status ndb pada salah satu node ( dibawah ini saya cek pada clusterdb1 )
 `````
   ndb_mgm
@@ -121,6 +121,8 @@ Masuk ke proxy
   ### Melakukan pengukuran response time (load test) menggunakan JMeter.
   
   ![Hasil](jmeter1.png)
+  Pada link ini terdapat hasil dari response time yang telah dilakukan pada j-meter
+  ##### intip.in/loadtest
 
 
   
