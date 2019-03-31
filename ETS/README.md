@@ -104,16 +104,23 @@ Masuk ke proxy
 `````
    ![Hasil](Picture9.png)
    
-  ### Selanjutnya mengnonatifkan salah satu node
-  
+  ### Melakukan simulasi yanyg menunjukkan adanya adanya fail over
+  Dengan cara : Mematikan salah satu node yaitu pada manager
+  ##### Untuk mematikan node menggunakan syntax : 
 `````
-  sudo systemctl stop mysql
+  sudo service stop mysql
 `````
-   ![Hasil]()
+  ![Hasil](nodeomati.png)
+   
+ ##### Untuk mengaktifkan node menggunakan syntax : 
+ `````
+  sudo service start mysql
+ `````
+  ![Hasil](nodeonline.png)
    
   ### Melakukan pengukuran response time (load test) menggunakan JMeter.
   
-   ![Hasil]()
+  ![Hasil](jmeter1.png)
 
 
   
