@@ -80,7 +80,7 @@ Kemudian memastikan bahwa cassandra telah aktif atau berjalan dengan baik
 `````
 sudo service cassandra status
 `````
-![Hasil](cassandra status.png)
+![Hasil](cassandrastatus.png)
 
 Setelah itu melakukan verfikasi intalasi cassandra dengan sintaks. Output akan menampilkan UN yang artinya semuanya berjalan dengan normal.
 `````
