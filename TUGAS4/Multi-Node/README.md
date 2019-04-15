@@ -83,10 +83,10 @@ Maka hasil ouput sebagai berikut :
 ![Hasil](cqlshdua.PNG)
 
 ## Referensi
-# 1. https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04
-# 2. https://github.com/ahmadkikok/bdt_2019/tree/master/tugas_4_cassandara-single-and-multiple-note/tugas_single-note
-# 3. https://www.digitalocean.com/community/tutorials/how-to-implement-a-basic-firewall-template-with-iptables-on-ubuntu-14-04
-# 4. https://www.digitalocean.com/community/tutorials/how-to-run-a-multi-node-cluster-database-with-cassandra-on-ubuntu-14-04
+### 1. https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04
+### 2. https://github.com/ahmadkikok/bdt_2019/tree/master/tugas_4_cassandara-single-and-multiple-note/tugas_single-note
+### 3. https://www.digitalocean.com/community/tutorials/how-to-implement-a-basic-firewall-template-with-iptables-on-ubuntu-14-04
+### 4. https://www.digitalocean.com/community/tutorials/how-to-run-a-multi-node-cluster-database-with-cassandra-on-ubuntu-14-04
  
 
 
