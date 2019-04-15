@@ -101,5 +101,4 @@ Hasil tampilan sebagai berikut:
 ## Referensi
 #### 1. https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04#step-2-%E2%80%94-installing-cassandra
 #### 2. https://www.liquidweb.com/kb/install-cassandra-ubuntu-16-04-lts/
-
-##
+#### 3. https://github.com/ahmadkikok/bdt_2019/tree/master/tugas_4_cassandara-single-and-multiple-note/tugas_single-note
