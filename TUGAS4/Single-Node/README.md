@@ -88,7 +88,7 @@ nodetool status
 `````
 Hasil tampilan sebagai berikut:
 
-![Hasil](nodetoolstatus.png)
+![Hasil](nodetoolstatus.PNG) 
 
 Melakukan connect dengan cqlsh
 `````
