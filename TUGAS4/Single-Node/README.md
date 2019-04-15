@@ -53,6 +53,7 @@ sudo apt-get install oracle-java8-set-default
 java -version
 `````
 Hasil tampilan sebagai berikut
+
 ![Hasil](1java.png)
 
 ### Install Cassandra
@@ -72,6 +73,7 @@ sudo apt-get update
 sudo apt-get install cassandra
 `````
 Maka, hasil tampilan sebagai berikut:
+
 ![Hasil](1cassandra.png)
 
 Kemudian memastikan bahwa cassandra telah aktif atau berjalan dengan baik 
@@ -85,6 +87,7 @@ Setelah itu melakukan verfikasi intalasi cassandra dengan sintaks. Output akan m
 nodetool status
 `````
 Hasil tampilan sebagai berikut:
+
 ![Hasil](nodetoolstatus.png)
 
 Melakukan connect dengan cqlsh
@@ -92,6 +95,7 @@ Melakukan connect dengan cqlsh
 cqlsh
 `````
 Hasil tampilan sebagai berikut: 
+
 ![Hasil](cqlshcassandra.png)
 
 ## Referensi
