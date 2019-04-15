@@ -96,7 +96,7 @@ cqlsh
 `````
 Hasil tampilan sebagai berikut: 
 
-![Hasil](cqlshcassandra.png)
+![Hasil](cqlshcassandra.PNG)
 
 ## Referensi
 #### 1. https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04#step-2-%E2%80%94-installing-cassandra
