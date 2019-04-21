@@ -90,7 +90,7 @@ COPY restaurant(Restaurant_ID,Restaurant_Name,Country_Code,City,Address,Locality
 `````
 Select *from test
 `````
-![Hasil](createtable.PNG)
+![Hasil](dara.PNG)
 
 Insert Data
 ![Hasil](createdarahalal.PNG)
