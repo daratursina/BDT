@@ -18,7 +18,7 @@ Cassandra atau lengkap APACHE CASSANDRA adalah salah satu produk open source unt
 ### Proses Instalasi
 #### Pada tahap ini saya memakai Single Node, yaitu dengan ip host : 
 
-![Hasil](Cassandra11.PNG)
+![Hasil](Cassandra11.png)
 
 #### Tahap berikutnya membuat Vagrantfile
 
