@@ -116,9 +116,9 @@ ps -ef | grep redis
 
 ![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/master1.PNG)
 
-![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave1master.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave1.PNG)
 
-![SS](slave2.png)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave2.PNG)
 
 ##### Selanjutnya melakukan ping ke masing-masing node:
 `````
@@ -126,7 +126,7 @@ redis-cli -h [ip address] ping #masukkan ip address masing-masing node
 `````
 ##### Hasil dari tampilan bahwa tiap node berhasil melakukan ping:
 
-![Hasil](pongmaster.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/pongmaster.PNG)
 
 ![Hasil](slave1pong.png)
 
