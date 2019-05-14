@@ -74,7 +74,7 @@ sudo ufw allow from 192.168.33.12 #Slave2
 `````
 ##### Setelah melakukan konfigurasi, terdapat file `````redis.conf````` dan `````sentinel.conf````` . Melakukan konfigurasi pada file tersebut di masing-masing node. Dan pastikan kembali tidak ada `````typo````` (kesalahan)
 
-![Hasil](redis.png)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/redis.png)
 ##### 2.5 Selanjutnya mengubah konfigurasi pada masing-masing node, yaitu pada file `````redis.conf````` : 
 `````
 # Untuk Master
@@ -114,11 +114,11 @@ ps -ef | grep redis
 ``````
 ##### Hasil dari tampilan status pengecekan redis sebagai berikut:
 
-![Hasil](master1.png)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/master1.PNG)
 
-![Hasil](slave1.png)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave1master.PNG)
 
-![Hasil](slave2.png)
+![SS](slave2.png)
 
 ##### Selanjutnya melakukan ping ke masing-masing node:
 `````
