@@ -3,7 +3,7 @@
 ## 1.  Arsitektur 
 Berikut pembagian arsitektur dan IP pada tiap-tiap cluster:
 
-![SS](https://github.com/daratursina/BDT/tree/master/TUGAS%205/Implementasi%20Redis/SS/dara.png)
+![SS](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/dara.PNG)
 
 ## 2. Instalasi
 ##### 2.1. Membuat file Vagrantfile, seperti dibawah ini:
