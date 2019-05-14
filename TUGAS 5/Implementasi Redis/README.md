@@ -3,7 +3,7 @@
 ## 1.  Arsitektur 
 Berikut pembagian arsitektur dan IP pada tiap-tiap cluster:
 
-![Hasil](dara.png)
+![Hasil](https://github.com/daratursina/BDT/edit/master/TUGAS%205/Implementasi%20Redis//dara.png)
 
 ## 2. Instalasi
 ##### 2.1. Membuat file Vagrantfile, seperti dibawah ini:
@@ -161,6 +161,6 @@ redis-cli -p 6379 DEBUG sleep 30
 ##### Meskipun salah satu node dimatikan(pada kasus ini yang dimatikan adalah master), redis tetap berjalan dengan baik.
 
 ## Referensi
-### https://medium.com/@amila922/redis-sentinel-high-availability-everything-you-need-to-know-from-dev-to-prod-complete-guide-deb198e70ea6
-### https://stackoverflow.com/questions/42857551/could-not-connect-to-redis-at-127-0-0-16379-connection-refused-with-homebrew
-### https://www.concretepage.com/questions/598
+#### https://medium.com/@amila922/redis-sentinel-high-availability-everything-you-need-to-know-from-dev-to-prod-complete-guide-deb198e70ea6
+#### https://stackoverflow.com/questions/42857551/could-not-connect-to-redis-at-127-0-0-16379-connection-refused-with-homebrew
+#### https://www.concretepage.com/questions/598
