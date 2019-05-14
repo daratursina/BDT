@@ -128,35 +128,35 @@ redis-cli -h [ip address] ping #masukkan ip address masing-masing node
 
 ![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/pongmaster.PNG)
 
-![Hasil](slave1pong.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave1pong.PNG)
 
-![Hasil](slave2pong.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave2pong.PNG)
 
 ##### Mengecek masing-masing node telah tereplikasi dengan baik:
 `````
 redis-cli
 `````
 ###### Pada master
-![Hasil](replicationmaster.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/replicationmaster.PNG)
 
 ###### Pada slave1
-![Hasil](replicationslave1.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/replicationslave1.PNG)
 
 ###### Pada slave2
-![Hasil](replicationslave2.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/replicationslave2.PNG)
 
 ## 3. Fail Over
 ##### Mematikan salah node dengan sintak sebagai berikut:
 `````
 redis-cli -p 6379 DEBUG sleep 30
 `````
-![Hasil](matikanmaster.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/matikanmaster.PNG)
 
 ###### Ketika salah satu node dimatikan, maka node slave akan menjadi master 
 
-![Hasil](slave1master.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave1master.PNG)
 
-![Hasil](slave2master.png)
+![Hasil](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/SS/slave2master.PNG)
 
 ##### Meskipun salah satu node dimatikan(pada kasus ini yang dimatikan adalah master), redis tetap berjalan dengan baik.
 
