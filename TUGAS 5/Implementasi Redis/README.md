@@ -1,4 +1,7 @@
 # Implementasi Redis Cluster
+## Pengertian Redis
+### Redis ( Remote Dictionary Server)
+Redis adalah proyek struktur data dalam memori yang menerapkan basis data nilai kunci terdistribusi di dalam memori dengan daya tahan opsional. Redis mendukung berbagai jenis struktur data abstrak, seperti string, daftar, peta, set, set diurutkan, HyperLogLogs, bitmap, stream, dan indeks spasial. Redis kini memberikan respons dalam waktu di bawah satu milidetik yang memungkinkan jutaan permintaan per detik untuk aplikasi real-time pada Permainan, Ad-Tech, Layanan Finansial, Layanan Kesehatan, dan IoT. Redis adalah pilihan populer untuk caching, manajemen sesi, permainan, papan peringkat, analisis real-time, geospasial, tumpangan berkendara, obrolan/perpesanan, streaming media, dan aplikasi pub/sub.
 
 ## 1.  Arsitektur 
 Berikut pembagian arsitektur dan IP pada tiap-tiap cluster:
