@@ -10,11 +10,11 @@ Terdapat 4 node beserta keterangan tiap informasinya.
 | 3 | 192.168.33.13 | clusterdb2 | Sebagai Server 2 dan Node 2 |
 | 4 | 192.168.33.14 | proxy | Sebagai Load Balancer (ProxySQL)|
 
-#### 1. Untuk Evaluasi Tugas Akhir ini saya memanfaatkan aplikasi WordPress yang telah di kerjakan sebelumnya pada Evaluasi Tengah Semester, dan menambahkan Sistem Cache Redis Cluster NoSQL. Untuk tahap-tahap melakukan install MySQL dapat di lihat di [Tugas 1 Implementasi MySQL Cluster](https://github.com/daratursina/BDT/tree/master/TUGAS%201). 
+#### 2. Untuk Evaluasi Tugas Akhir ini saya memanfaatkan aplikasi WordPress yang telah di kerjakan sebelumnya pada Evaluasi Tengah Semester, dan menambahkan Sistem Cache Redis Cluster NoSQL. Untuk tahap-tahap melakukan install MySQL dapat di lihat di [Tugas 1 Implementasi MySQL Cluster](https://github.com/daratursina/BDT/tree/master/TUGAS%201). 
 
-#### 2. Tahap selanjutnya untuk menginstall WordPress dapat di lihat pada [ETS WordPress](https://github.com/daratursina/BDT/blob/master/ETS/README.md)
+#### 3. Tahap selanjutnya untuk menginstall WordPress dapat di lihat pada [ETS WordPress](https://github.com/daratursina/BDT/blob/master/ETS/README.md)
 
-#### 3. Tahap berikutnya untuk menginstall Sistem Cache Redis pada WordPress
+#### 4. Tahap berikutnya untuk menginstall Sistem Cache Redis pada WordPress
 ## STEP I
 ##### 1. Install package pada manager,clusterdb1, dan proxy
 `````
@@ -57,6 +57,8 @@ sudo systemctl restart redis-server
 `````
 sudo nano /var/www/html/wp-config.php
 `````
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/confiq.PNG)
+
 ##### 2. Lalu menambahkan `````WordPress unique Keys dan Salts section`````:
 `````
 define( 'WP_CACHE_KEY_SALT', 'example.com' );  // tidak harus 'example.com'
@@ -75,12 +77,32 @@ redis-cli
 
 ![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/proxy.PNG)
 
+
+## STEP IV
+#### Setelah melakukan konfigurasi pada WordPress, maka selanjutnya masuk ke halaman WordPress lalu melakukan instalasi `````Wordpress Redis Object Cache````` Plugin.  
+
+##### Terlebih dahulu mengaktifkan Redis Cache, pada gambar dibawah ini Redis Cache sudah diaktifkan
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/tidakatif.PNG)
+
+##### Pastikan kembali telah melakukan konfigurasi dengan benar, maka akan muncul seperti di bawah ini : 
+
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/redisdiwordpress.PNG)
+
+
 ##### 3. Terakhir untuk mengecek apakah Redis berjalan dengan baik pada WordPress yaitu :
+## Test Failover Redis
 `````
 redis-cli monitor
 OK -> jika berhasil 
 `````
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/monitor.PNG)
 
+### 5. Referensi : 
+#### https://websiteforstudents.com/setup-wordpress-to-use-redis-caching-on-ubuntu-17-04-17-10/
+#### https://geekflare.com/digitalocean-wordpress/
+#### https://www.techandme.se/install-redis-cache-on-your-wordpress/
+#### https://www.digitalocean.com/community/tutorials/how-to-configure-secure-updates-and-installations-in-wordpress-on-ubuntu
+#### https://www.digitalocean.com/community/tutorials/how-to-configure-redis-caching-to-speed-up-wordpress-on-ubuntu-14-04
 
 
 
