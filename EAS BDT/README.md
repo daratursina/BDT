@@ -67,11 +67,13 @@ Selanjutnya melakukan tes koneksi dengan sintak :
 `````
 redis-cli
 `````
-Tes `````redis-cli````` pada manager
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/max.PNG)
+###### Tes `````redis-cli````` pada manager
 
-Tes `````redis-cli````` pada proxy
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/max.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/manager.PNG)
+
+###### Tes `````redis-cli````` pada proxy
+
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/proxy.PNG)
 
 ##### 3. Terakhir untuk mengecek apakah Redis berjalan dengan baik pada WordPress yaitu :
 `````
