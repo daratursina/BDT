@@ -45,6 +45,9 @@ pada manager dan proxy yaitu :
 `````maxmemory 256mb`````
 `````maxmemory-policy allkeys-lfu`````
 
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/max.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/policy.PNG)
+
 ##### 2. Melakukan restart redis server pada manager dan proxy
 `````
 sudo systemctl restart redis-server
@@ -64,6 +67,12 @@ Selanjutnya melakukan tes koneksi dengan sintak :
 `````
 redis-cli
 `````
+Tes `````redis-cli````` pada manager
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/max.PNG)
+
+Tes `````redis-cli````` pada proxy
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/max.PNG)
+
 ##### 3. Terakhir untuk mengecek apakah Redis berjalan dengan baik pada WordPress yaitu :
 `````
 redis-cli monitor
