@@ -17,13 +17,26 @@ Terdapat 4 node beserta keterangan tiap informasinya.
 #### 4. Untuk tahap install redis dapat di lihat pada [Implementasi Redis](https://github.com/daratursina/BDT/blob/master/TUGAS%205/Implementasi%20Redis/README.md)
 
 
-##### Terlebih dahulu mengaktifkan Redis Cache, pada gambar dibawah ini Redis Cache sudah diaktifkan
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/tidakatif.PNG)
+##### 5. Konfigurasi Redis Cache pada Wordpress
+##### 5.1. Install Plugin `````Redis Object Cache`````
 
-##### Pastikan kembali telah melakukan konfigurasi dengan benar, maka akan muncul seperti di bawah ini : 
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/pasangsekarang.PNG)
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/redisdiwordpress.PNG)
+##### Berikut ini tampilan sistem Cache pada WordPress sebelum dilakukan konfigurasi
 
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/sebelumconfigwp.PNG)
+
+##### 5.2 Melakukan konfigurasi pada `````wp.config-php`````
+`````
+sudo nano wp.wonfig-php
+`````
+Isi dari konfigurasi yaitu : 
+
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/wpconfig.PNG)
+
+###### Dan berikut ini tampilan Sistem Cache pada WordPress setelah dilakukan konfigurasi
+
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/setelahconfig.PNG)
 
 ##### 3. Terakhir untuk mengecek apakah Redis berjalan dengan baik pada WordPress yaitu :
 ## Test Failover Redis
@@ -31,7 +44,12 @@ Terdapat 4 node beserta keterangan tiap informasinya.
 redis-cli monitor
 OK -> jika berhasil 
 `````
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/monitor.PNG)
+##### Ketika membuka post
+
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapos.PNG)
+
+##### Ketika menambah post
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/tambahpost.PNG)
 
 ### 5. Referensi : 
 #### https://websiteforstudents.com/setup-wordpress-to-use-redis-caching-on-ubuntu-17-04-17-10/
