@@ -36,7 +36,7 @@ Isi dari konfigurasi yaitu :
 
 ###### Dan berikut ini tampilan Sistem Cache pada WordPress setelah dilakukan konfigurasi
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/setelahconfig.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/setelahconfigwp.PNG)
 
 ##### 3. Terakhir untuk mengecek apakah Redis berjalan dengan baik pada WordPress yaitu :
 ## Test Failover Redis
