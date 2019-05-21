@@ -46,10 +46,10 @@ OK -> jika berhasil
 `````
 ##### Ketika membuka post
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapos.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapost.PNG)
 
 ##### Ketika menambah post
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/tambahpost.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/tambahpos.PNG)
 
 ### 5. Referensi : 
 #### https://websiteforstudents.com/setup-wordpress-to-use-redis-caching-on-ubuntu-17-04-17-10/
