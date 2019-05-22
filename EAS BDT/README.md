@@ -54,7 +54,7 @@ OK -> jika berhasil
 ![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/baruu.PNG)
 
 ##### Ketika mengakses salah satu post
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapost.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/update.PNG)
 
 ### 5. Referensi : 
 #### https://websiteforstudents.com/setup-wordpress-to-use-redis-caching-on-ubuntu-17-04-17-10/
