@@ -51,10 +51,10 @@ OK -> jika berhasil
 
 ##### Ketika mengomentar salah satu post
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/komenpos.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/komentar.PNG)
 
 ##### Ketika mengakses salah satu post
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapos.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapost.PNG)
 
 ### 5. Referensi : 
 #### https://websiteforstudents.com/setup-wordpress-to-use-redis-caching-on-ubuntu-17-04-17-10/
