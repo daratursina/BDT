@@ -24,7 +24,7 @@ Terdapat 4 node beserta keterangan tiap informasinya.
 
 ##### Berikut ini tampilan sistem Cache pada WordPress sebelum dilakukan konfigurasi
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/sebelumconfigwp.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/Capture.PNG)
 
 ##### 5.2 Melakukan konfigurasi pada `````wp.config-php`````
 `````
