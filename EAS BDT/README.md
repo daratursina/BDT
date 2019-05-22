@@ -32,7 +32,7 @@ sudo nano wp.wonfig-php
 `````
 Isi dari konfigurasi yaitu : 
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/wpconfig.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/u.PNG)
 
 ###### Dan berikut ini tampilan Sistem Cache pada WordPress setelah dilakukan konfigurasi
 
