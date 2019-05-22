@@ -51,7 +51,7 @@ OK -> jika berhasil
 
 ##### Ketika mengomentar salah satu post
 
-![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/komentar.PNG)
+![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/baruu.PNG)
 
 ##### Ketika mengakses salah satu post
 ![SS](https://github.com/daratursina/BDT/blob/master/EAS%20BDT/SS/bukapost.PNG)
